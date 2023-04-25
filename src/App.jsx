@@ -4,7 +4,7 @@ function App() {
   return (
     <main>
       <Post author="Maximilian" body="React.js is awesome!" />
-      <Post author="Manuel" body="hello world" />
+      <Post author="Manuel" body="check out the full course!" />
     </main>
   );
 }
