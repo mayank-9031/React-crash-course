@@ -1,10 +1,12 @@
-import classesss from "./Post.module.css";
+import classes from "./Post.module.css";
 
-function Post(props) {
+function Post({ author, body }) {
   return (
-    <li className={classesss.post}>
-      <p className={classesss.author}>{props.author}</p>
-      <p className={classesss.text}>{props.body}</p>
+    <li className={classes.post}>
+      {/* <p className={classes.author}>{props.author}</p> */}
+      <p className={classes.author}>{author}</p>
+      {/* <p className={classes.text}>{props.body}</p> */}
+      <p className={classes.text}>{body}</p>
     </li>
   );
 }
